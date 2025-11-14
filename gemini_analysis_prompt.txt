@@ -1,0 +1,43 @@
+VitruvianRedux Codebase Analysis for Kotlin Multiplatform Port
+
+I need to understand this Android-native Kotlin app to port it to Kotlin Multiplatform (Android, iOS, PC).
+
+Please analyze and provide:
+
+1. PROJECT ARCHITECTURE:
+   - Overall architecture pattern (MVVM, MVI, etc.)
+   - Directory structure and organization
+   - Core modules/packages
+
+2. KEY COMPONENTS:
+   - UI layer: What UI framework? (Compose, XML, etc.)
+   - Business logic layer: ViewModels, use cases, repositories
+   - Data layer: Database (Room?), data sources, models
+   - BLE/Hardware: Bluetooth communication implementation
+   - Services: Background services, WorkManager, etc.
+
+3. DEPENDENCIES:
+   - Critical Android-specific dependencies (list with purpose)
+   - Which dependencies have KMP alternatives?
+   - Which will need platform-specific implementations?
+
+4. FEATURE SET:
+   - List all major features/screens
+   - Workout tracking, BLE connectivity, etc.
+
+5. PLATFORM-SPECIFIC CODE:
+   - Android-specific APIs being used (BLE, Notifications, Services, etc.)
+   - Which features will need platform-specific implementations for iOS/PC?
+
+6. DATA AND STATE MANAGEMENT:
+   - How is state managed?
+   - What persistence mechanisms are used?
+
+7. POTENTIAL CHALLENGES:
+   - Biggest blockers for KMP migration
+   - Complex Android-specific code that needs redesign
+
+Please provide:
+- File paths with line number references
+- Code structure examples
+- Specific technology stack details
